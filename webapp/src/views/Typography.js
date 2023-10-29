@@ -1,5 +1,4 @@
 import React from "react";
-import Maps from "views/Maps.js";
 
 // react-bootstrap components
 import {
@@ -135,16 +134,6 @@ function Typography() {
                   <div className="clearfix"></div>
                 </Form>
               </Card.Body>
-            </Card>
-          </Col>
-          <Col md="4">
-            <Card className="card-user">
-              <Card.Header>
-                <Card.Title as="h4">Drop Pin</Card.Title>
-              </Card.Header>
-              <div className="card-image">
-              <Maps></Maps>
-              </div>
             </Card>
           </Col>
         </Row>

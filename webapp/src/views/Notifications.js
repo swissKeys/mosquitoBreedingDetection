@@ -91,8 +91,8 @@ function Notifications() {
                 <h5>
                   <small>Notifications Style</small>
                 </h5>
-                <Alert variant="info">
-                  <span>This is a plain notification</span>
+                <Alert variant="warning">
+                  <span>Season Starts be awera of mosquito breedings</span>
                 </Alert>
                 <Alert variant="info">
                   <button
@@ -103,9 +103,9 @@ function Notifications() {
                   >
                     <i className="nc-icon nc-simple-remove"></i>
                   </button>
-                  <span>This is a notification with close button.</span>
+                  <span>INFO: The Zika virus is primarily transmitted through the bite of infected Aedes mosquitoes. Read more.</span>
                 </Alert>
-                <Alert className="alert-with-icon" variant="info">
+                <Alert className="alert-with-icon" variant="danger">
                   <button
                     aria-hidden={true}
                     className="close"
@@ -119,10 +119,10 @@ function Notifications() {
                     className="nc-icon nc-bell-55"
                   ></span>
                   <span>
-                    This is a notification with close button and icon.
+                    Danger- You are close to a confirmed mosquito hub
                   </span>
                 </Alert>
-                <Alert className="alert-with-icon" variant="info">
+                <Alert className="alert-with-icon" variant="warning">
                   <button
                     aria-hidden={true}
                     className="close"
@@ -136,10 +136,7 @@ function Notifications() {
                     className="nc-icon nc-bell-55"
                   ></span>
                   <span>
-                    This is a notification with close button and icon and have
-                    many lines. You can see that the icon and the close button
-                    are always vertically aligned. This is a beautiful
-                    notification. So you don't have to worry about the style.
+                  Weather conditions are perfect for mosquito hubs
                   </span>
                 </Alert>
               </Col>
